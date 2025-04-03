@@ -1,0 +1,29 @@
+{
+  "name": "delamotte-pierrick/symfony-boilerplate-bug-property-normalizer",
+  "type": "boilerplate",
+  "description": "A Symfony project to reproduce a bug with the PropertyNormalizer",
+  "license": "opensource",
+  "require": {
+    "php": "^8.4",
+    "symfony/property-info": "^7.2",
+    "symfony/serializer": "^7.2",
+    "phpdocumentor/reflection-docblock": "^5.6",
+    "symfony/property-access": "^7.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "bin-dir": "vendor/bin"
+  }
+}
